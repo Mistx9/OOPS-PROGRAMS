@@ -17,9 +17,10 @@ int main() {
     }
 
     if (strlen(password) >= 8 && hasDigit)
-        printf("Password is valid ✅\n");
+        printf("Password is valid \n");
     else
-        printf("Invalid password ❌ (must be 8+ chars and contain a digit)\n");
+        printf("Invalid password  (must be 8+ chars and contain a digit)\n");
 
     return 0;
 }
+
